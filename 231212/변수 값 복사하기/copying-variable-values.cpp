@@ -4,6 +4,6 @@ int main(){
     int a=1,b=2,c=3;
     a=c;
     b=c;
-    cout << a << "\n" << b << "\n" << c;
+    cout << a << " " << b << " " << c;
     return 0;
 }
