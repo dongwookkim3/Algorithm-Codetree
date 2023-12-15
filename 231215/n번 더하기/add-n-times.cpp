@@ -4,8 +4,8 @@ int main(){
     int a,n;
     cin >> a >> n;
     for (int i=1;i<=n;i++){
-        cout << a << "\n";
         a+=n;
+        cout << a << "\n";
     }
     return 0;
 }
