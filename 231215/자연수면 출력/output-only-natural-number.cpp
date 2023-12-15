@@ -4,7 +4,8 @@ int main(){
     int a,b;
     cin >> a >> b;
     while(b--){
-        cout << a;
+        if (a<=0) cout << 0;
+        else cout << a;
     }
     return 0;
 }
