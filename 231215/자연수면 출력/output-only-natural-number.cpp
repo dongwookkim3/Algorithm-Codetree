@@ -8,7 +8,7 @@ int main(){
         return 0;
     }
     while(b--){
-        else cout << a;
+        cout << a;
     }
     return 0;
 }
