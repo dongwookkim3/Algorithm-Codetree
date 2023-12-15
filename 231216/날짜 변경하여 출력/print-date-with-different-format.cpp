@@ -5,7 +5,7 @@ int main(){
     cin >> y;
     cin.get();
     cin >> m;
-    cin.get()
+    cin.get();
     cin >> d;
     cout << m << '-' << d << '-' << y;
     return 0;
