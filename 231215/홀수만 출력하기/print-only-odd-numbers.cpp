@@ -6,7 +6,7 @@ int main(){
     while(n--){
         int a;
         cin >> a;
-        if (a%3==0) cout << a << "\n";
+        if (a%3==0 && a%2==1) cout << a << "\n";
     }
     return 0;
 }
