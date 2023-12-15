@@ -7,6 +7,10 @@ int main(){
     cin >> b;
     cin.get();
     cin >> c;
-    cout << a << '-' << c << '-' << b;
+    cout.width(3);
+    cout.fill('0');
+    cout << a << '-';
+    cout.width(4);
+    cout << c << '-' << b;
     return 0;
 }
