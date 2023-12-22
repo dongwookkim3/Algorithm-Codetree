@@ -5,8 +5,8 @@ int main(){
     int k;
     cin >> c >> k;
     c/=100;
-    int m=k/c;
+    int m=k/(c*c);
     cout << m << "\n";
-    if (c>=25) cout << "Obesity";
+    if (m>=25) cout << "Obesity";
     return 0;
 }
