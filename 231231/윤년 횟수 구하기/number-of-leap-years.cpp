@@ -11,7 +11,6 @@ int main(){
             else if (i%400==0){
                 m++;
             }
-            else m++;
         }
     }
     cout << m;
