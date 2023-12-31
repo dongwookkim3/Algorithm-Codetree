@@ -9,7 +9,7 @@ int main(){
     int n;
     cin >> n;
     for (int i=1;i<=n;i++){
-        if (f(i)) cout << "0 ";
+        if (f(i) || i%3==0) cout << "0 ";
         else cout << i << ' ';
     }
     return 0;
