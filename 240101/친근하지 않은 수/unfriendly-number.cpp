@@ -5,7 +5,7 @@ int main(){
     cin >> n;
     for (int i=1;i<=n;i++){
         if (i%2==0 && i%3==0 && i%5==0) continue;
-        m+=i;
+        m++;
     }
     cout << m;
     return 0;
