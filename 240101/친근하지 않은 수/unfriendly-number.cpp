@@ -7,6 +7,6 @@ int main(){
         if (i%2==0 || i%3==0 || i%5==0) continue;
         m+=i;
     }
-    cout << m;
+    cout << n-m;
     return 0;
 }
