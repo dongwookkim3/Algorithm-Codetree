@@ -9,6 +9,8 @@ int main(){
             m1++;
         }
     }
+    cout << fixed;
+    cout.precision(1);
     cout << m << ' ' << (float)m/m1;
     return 0;
 }
