@@ -4,7 +4,7 @@ int main(){
     int a,b,m=0;
     cin >> a >> b;
     for (int i=a;i<=b;i++){
-        if (i%2==1){
+        if (i%2==0){
             m+=i;
         }
     }
