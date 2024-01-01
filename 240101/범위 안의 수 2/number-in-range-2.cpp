@@ -9,6 +9,6 @@ int main(){
     }
     cout << fixed;
     cout.precision(1);
-    cout << m/10;
+    cout << m << ' ' << m/10;
     return 0;
 }
