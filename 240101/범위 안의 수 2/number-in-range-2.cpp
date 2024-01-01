@@ -5,7 +5,9 @@ int main(){
     for (int i=1;i<=10;i++){
         int a;
         cin >> a;
-        m+=a;
+        if (a>=0 && a<=200) {
+            m+=a;
+        }
     }
     cout << fixed;
     cout.precision(1);
