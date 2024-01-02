@@ -5,8 +5,8 @@ int main(){
     while(1){
         cin >> n;
         if (cin.eof()) break;
-        if (i%2==0){
-            cout << i/2 << "\n";
+        if (n%2==0){
+            cout << n/2 << "\n";
         }
     }
     return 0;
