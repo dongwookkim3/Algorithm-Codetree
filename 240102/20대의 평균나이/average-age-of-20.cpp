@@ -5,7 +5,7 @@ int main(){
     while(1){
         int a;
         cin >> a;
-        if (a>=30) break;
+        if (a>=30 || a<=19) break;
         n+=a;
         m++;
     }
