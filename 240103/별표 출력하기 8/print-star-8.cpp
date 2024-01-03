@@ -7,7 +7,7 @@ int main(){
         if (i%2) cout << '*';
         else {
             for (int j=1;j<=i;j++){
-                cout << '*';
+                cout << "* ";
             }
         }
         cout << "\n";
