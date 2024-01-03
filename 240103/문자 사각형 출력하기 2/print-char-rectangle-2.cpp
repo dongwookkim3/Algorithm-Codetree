@@ -25,7 +25,8 @@ int main(){
 	}
 	for (int i=1;i<=n;i++){
 		for (int j=1;j<=n;j++){
-			cout << (char)(A[j][i]%26+64) << ' ';
+            if (A[j][i]>=27) A[j][i]++;
+			cout << (char)(A[j][i]%27+64) << ' ';
 		}
 		printf("\n");
 	}
