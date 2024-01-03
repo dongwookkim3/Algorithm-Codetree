@@ -25,7 +25,7 @@ int main(){
 	}
 	for (int i=1;i<=n;i++){
 		for (int j=1;j<=n;j++){
-            if (A[j][i]>=27) A[j][i]++;
+            A[j][i]+=A[j][i]/27;
 			cout << (char)(A[j][i]%27+64) << ' ';
 		}
 		printf("\n");
