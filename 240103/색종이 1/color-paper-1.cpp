@@ -1,5 +1,5 @@
 #include <iostream>
-#define MAX 500
+#define MAX 600
 using namespace std;
 int main(){
     int n,m=0;
