@@ -13,7 +13,7 @@ int main(){
     cout << A[0] << ' ';
     for (int i=1;;i++){
         if (A[i]!=A[0]){
-            cout << i-1;
+            cout << i;
             break;
         }
     }
