@@ -8,7 +8,7 @@ int main(){
             cout << "  ";
         }
         for (int j=1;j<=i;j++){
-            cout << m;
+            cout << m << ' ';
             m++;
             if (m==10) m=1;
         }
