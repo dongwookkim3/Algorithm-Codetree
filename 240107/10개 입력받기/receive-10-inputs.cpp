@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+    int i;
     float m=0;
     for (i=1;i<=10;i++){
         int a;
