@@ -14,7 +14,7 @@ int main(){
     }
     cout << m << ' ';
     cout << fixed;
-    cout << precision(1);
+    cout.precision(1);
     cout << m/i;
     return 0;
 }
