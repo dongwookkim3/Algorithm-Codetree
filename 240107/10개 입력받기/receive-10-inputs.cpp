@@ -8,10 +8,10 @@ int main(){
         cin >> a;
         m+=a;
         if (a==0){
-            i--;
             break;
         }
     }
+    i--;
     cout << m << ' ';
     cout << fixed;
     cout.precision(1);
