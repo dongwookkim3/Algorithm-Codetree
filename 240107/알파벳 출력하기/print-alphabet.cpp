@@ -7,6 +7,7 @@ int main(){
         for (int j=1;j<=i;j++){
             cout << (char)(m+64);
             m++;
+            if (m>26) m=1;
         }
         cout << "\n";
     }
