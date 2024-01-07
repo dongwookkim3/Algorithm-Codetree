@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main(){
     int n;
@@ -10,6 +11,7 @@ int main(){
         m+=a;
     }
     m/=n;
+    m=round(m*10)/10;
     cout << fixed;
     cout.precision(1);
     cout << m << "\n";
