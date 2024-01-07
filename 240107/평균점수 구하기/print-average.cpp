@@ -9,6 +9,6 @@ int main(){
     }
     cout << fixed;
     cout.precision(1);
-    cout << m/a;
+    cout << m/8;
     return 0;
 }
