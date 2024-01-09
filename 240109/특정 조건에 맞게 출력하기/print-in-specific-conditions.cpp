@@ -2,9 +2,9 @@
 #define MAX 10
 using namespace std;
 int main(){
-    int i;
+    int i=0;
     int A[MAX+1]={};
-    for (i=1;i<=MAX;i++){
+    while (++i){
         cin >> A[i];
         if (A[i]==0){
             break;
