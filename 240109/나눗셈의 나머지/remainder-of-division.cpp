@@ -7,7 +7,7 @@ int main(){
     for (int i=1;;i++){
         A[n%k]++;
         n/=k;
-        if (n==0){
+        if (n==0 || n==1){
             break;
         }
     }
