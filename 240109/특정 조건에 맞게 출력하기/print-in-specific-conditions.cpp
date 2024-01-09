@@ -1,5 +1,5 @@
 #include <iostream>
-#define MAX 10
+#define MAX 100
 using namespace std;
 int main(){
     int i=0;
