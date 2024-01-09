@@ -7,8 +7,9 @@ int main(){
     for (int i=0;i<A.length();i++){
         if (A[i]==c){
             cout << i;
-            break;
+            return 0;
         }
     }
+    cout << "None";
     return 0;
 }
