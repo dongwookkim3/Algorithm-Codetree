@@ -11,7 +11,7 @@ int main(){
         cin >> A[i];
     }
     for (int i=2;i<=n;i++){
-        long long m=1000;
+        unsigned long long m=9999999999999;
         for (int j=1;j<=i;j++){
             if (A[j]<m){
                 m=A[j];
