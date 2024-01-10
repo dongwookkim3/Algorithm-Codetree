@@ -19,7 +19,7 @@ int main(){
         }
         B[i]=A[i]-m;
     }
-    sort(B+1,B+n+1,greater<int>());
-    cout << B[1];
+    sort(B+1,B+n+1);
+    cout << B[n];
     return 0;
 }
