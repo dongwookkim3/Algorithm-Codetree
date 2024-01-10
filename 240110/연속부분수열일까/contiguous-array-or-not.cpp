@@ -8,12 +8,12 @@ int main(){
     for (int i=1;i<=n;i++){
         cin >> A[i];
     }
-    for (int j=1;j<=m;j++){
-        cin >> B[j];
+    for (int i=1;i<=m;i++){
+        cin >> B[i];
     }
     for (int i=1;i<=n-m+1;i++){
         for (int j=1;j<=m;j++){
-            if (A[i]!=B[j]){
+            if (A[i+j-1]!=B[j]){
                 break;
             }
             else if (j==m){
