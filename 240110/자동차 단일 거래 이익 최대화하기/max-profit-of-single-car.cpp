@@ -11,7 +11,7 @@ int main(){
         cin >> A[i];
     }
     for (int i=2;i<=n;i++){
-        int m=1000;
+        long long m=1000;
         for (int j=1;j<=i;j++){
             if (A[j]<m){
                 m=A[j];
