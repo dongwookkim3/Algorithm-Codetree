@@ -9,6 +9,7 @@ int main(){
 	if (A.find(c)!=string::npos) {
 		i=A.find(c);
 	}
-	cout << i;
+	if (i==-1) cout << "No";
+    else cout << i;
 	return 0;
 }
