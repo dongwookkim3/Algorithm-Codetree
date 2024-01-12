@@ -4,9 +4,9 @@ int main(){
     for (int i=1;i<=2;i++){
         string A;
         getline(cin,A);
-        for (int j=0;j<a.length();j++){
+        for (int j=0;j<A.length();j++){
             if (A[j]!=' '){
-                cout << A[i];
+                cout << A[j];
             }
         }
     }
