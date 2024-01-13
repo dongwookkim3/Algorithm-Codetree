@@ -9,6 +9,9 @@ int main(){
             i=0;
         }
     }
-    if (A!=B) cout << A;
+    if (A.substr(0,B.length())==B){
+        A.erase(0,B.length());
+    }
+    cout << A;
     return 0;
 }
