@@ -9,6 +9,6 @@ int main(){
             i=0;
         }
     }
-    cout << A;
+    if (A!=B) cout << A;
     return 0;
 }
