@@ -5,17 +5,21 @@ int main(){
     int n;
     cin >> A >> n;
     while(n--){
-        int a,b,c;
-        cin >> a >> b >> c;
+        int a;
+        cin >> a;
         if (a==1){
+            int b,c;
+            cin >> b >> c;
             char t=A[b-1];
             A[b-1]=A[c-1];
             A[c-1]=t;
         }
         else {
+            char b,c;
+            cin >> b >> c;
             for (int i=0;i<A.length();i++){
-                if (A[i]==b+97){
-                    A[i]=(char)c+97;
+                if (A[i]==b){
+                    A[i]=c;
                 }
             }
         }
