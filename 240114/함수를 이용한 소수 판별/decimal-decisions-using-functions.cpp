@@ -12,7 +12,7 @@ int main(void){
     int a,b,m=0;
     cin >> a >> b;
     for (int i=a;i<=b;i++){
-        if (Prime(i)){
+        if (Prime(i) && i!=1){
             m+=i;
         }
     }
