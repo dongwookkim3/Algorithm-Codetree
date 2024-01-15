@@ -12,6 +12,7 @@ bool f(int n,int m,int A[MAX+1],int B[MAX+1]){
             return 1;
         }
     }
+    return 0;
 }
 int main(){
     int n,m;
