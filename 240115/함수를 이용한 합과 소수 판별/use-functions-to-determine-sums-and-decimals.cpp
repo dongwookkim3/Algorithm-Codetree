@@ -10,7 +10,7 @@ bool Prime(int n){
 }
 int f(int n){
     if (n>9) return f(n/10)+n%10;
-    else reutrn n;
+    else return n;
 }
 int main(){
     int a,b,m=0;
