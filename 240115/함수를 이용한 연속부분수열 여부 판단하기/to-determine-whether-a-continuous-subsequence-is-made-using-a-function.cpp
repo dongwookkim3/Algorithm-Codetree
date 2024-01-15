@@ -6,10 +6,12 @@ bool f(int n,int m,int A[MAX+1],int B[MAX+1]){
         if (A[i]==B[1]){
             for (int j=1;j<=m;j++){
                 if (A[i+j-1]!=B[j]){
-                    return 0;
+                    break;
+                }
+                else if (j==m){
+                    return 1;
                 }
             }
-            return 1;
         }
     }
     return 0;
