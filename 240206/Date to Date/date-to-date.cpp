@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int M[12]={31,28,31,30,31,30,31,31,30,31,30,31};
-    int m1,d1,m2,d2,D=0;
+    int m1,d1,m2,d2,D=1;
     cin >> m1 >> d1 >> m2 >> d2;
     while(m1!=m2 || d1!=d2){
         D++;
