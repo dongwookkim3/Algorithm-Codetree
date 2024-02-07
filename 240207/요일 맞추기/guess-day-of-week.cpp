@@ -11,7 +11,6 @@ int main(){
     int m1,m2,d1,d2;
     cin >> m1 >> d1 >> m2 >> d2;
     int D=(M[m2-1]+d2)-(M[m1-1]+d1);
-    if (D>0) D++;
     cout << DAY[(D+700)%7];
     return 0;
 }
