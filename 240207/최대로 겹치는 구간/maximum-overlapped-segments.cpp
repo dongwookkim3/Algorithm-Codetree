@@ -1,5 +1,5 @@
 #include <iostream>
-#define MAX 100
+#define MAX 200
 using namespace std;
 int main(){
     int A[MAX+1]={};
@@ -8,7 +8,7 @@ int main(){
     while(n--){
         int a,b;
         cin >> a >> b;
-        for (int i=a;i<b;i++){
+        for (int i=a+100;i<b+100;i++){
             A[i]++;
             if (A[i]>m){
                 m=A[i];
