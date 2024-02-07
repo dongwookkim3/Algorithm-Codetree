@@ -16,12 +16,12 @@ int main(){
     int D=(M[m2-1]+d2-M[m1-1]+d1)/7;
     for (int i=0;i<7;i++){
         if (DAY[i]==A){
-            if ((M[m2-1]+d2-M[m1-1]+d1)%7<=i){
+            if ((M[m2-1]+d2-M[m1-1]+d1)%7>=i){
                 D++;
             }
             break;
         }
     }
-    cout << D-2;
+    cout << D-1;
     return 0;
 }
