@@ -3,9 +3,9 @@
 #define MAX 12
 using namespace std;
 int main(){
-    int M[MAX]={31,28,31,30,31,30,31,31,30,31,30,31};
+    int M[MAX+1]={0,31,28,31,30,31,30,31,31,30,31,30,31};
     string DAY[7]={"Mon","Tue","Wed","Thu","Fri","Sat","Sun"};
-    for (int i=1;i<MAX;i++){
+    for (int i=1;i<=MAX;i++){
         M[i]+=M[i-1];
     }
     int m1,m2,d1,d2;
