@@ -22,6 +22,6 @@ int main(){
             break;
         }
     }
-    cout << D-=2;
+    cout << D-2;
     return 0;
 }
