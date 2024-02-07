@@ -1,31 +1,17 @@
 #include <iostream>
 #include <string>
+#define MAX 12
 using namespace std;
 int main(){
-    int M[12]={31,28,31,30,31,30,31,31,30,31,30,31};
+    int M[MAX]={31,28,31,30,31,30,31,31,30,31,30,31};
     string DAY[7]={"Mon","Tue","Wed","Thu","Fri","Sat","Sun"};
-    int m1,m2,d1,d2,D=0;
+    for (int i=1;i<MAX;i++){
+        M[i]+=M[i-1];
+    }
+    int m1,m2,d1,d2;
     cin >> m1 >> d1 >> m2 >> d2;
-    if (m1<m2 || (m1==m2 && d1<d2)){
-        while(m1!=m2 || d1!=d2){
-            D++;
-            d1++;
-            if (M[m1]==d1){
-                m1++;
-                d1=1;
-            }
-        }
-    }
-    else {
-        while(m1!=m2 || d1!=d2){
-            D--;
-            d1--;
-            if (d1==0){
-                m1--;
-                d1=M[m1];
-            }
-        }
-    }
+    int D=(M[m2-1]+d2)-(M[m1-1]+d1);
+    if (D>0) D++;
     cout << DAY[(D+700)%7];
     return 0;
 }
