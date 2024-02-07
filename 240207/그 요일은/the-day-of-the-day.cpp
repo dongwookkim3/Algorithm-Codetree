@@ -8,15 +8,16 @@ int main(){
     for (int i=1;i<=MAX;i++){
         M[i]+=M[i-1];
     }
-    int m1,m2,d1,d2,D=0,m=0;
+    int m1,m2,d1,d2,D=1,m=0;
     string A;
     cin >> m1 >> d1 >> m2 >> d2 >> A;
     for (int i=0;i<7;i++){
         if (DAY[i]==A){
             m=i;
+            break;
         }
     }
-    for (int i=M[m1-1]+d1;i<=M[m2-1]+d2;i++){
+    for (int i=0;i<=(M[m2-1]+d2-M[m1-1]-d1);i++){
         if (i%7==m){
             D++;
         }
