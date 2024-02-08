@@ -18,6 +18,11 @@ int main(){
         for (int i=0;i<B.size();i++){
             m*=B[i];
         }
+        if (m==1){
+            for (int i=0;i<A.size();i++){
+                m*=A[i];
+            }
+        }
     }
     else {
         for (int i=0;i<A.size();i++){
