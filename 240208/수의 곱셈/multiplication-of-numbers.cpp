@@ -8,20 +8,15 @@ int main(){
         int a;
         cin >> a;
         if (a%2==1){
-            A.push_back(a);
+            B.push_back(a);
         }
         else {
-            B.push_back(a);
+            A.push_back(a);
         }
     }
     if (B.size()%2==1){
         for (int i=0;i<B.size();i++){
             m*=B[i];
-        }
-        if (m==1){
-            for (int i=0;i<A.size();i++){
-                m*=A[i];
-            }
         }
     }
     else {
