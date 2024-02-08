@@ -8,7 +8,7 @@ int main(){
     while(n--){
         int a,b;
         cin >> a >> b;
-        for (int i=a;i<b;i++){
+        for (int i=a;i<=b;i++){
             A[i]++;
             if (A[i]>m){
                 m=A[i];
