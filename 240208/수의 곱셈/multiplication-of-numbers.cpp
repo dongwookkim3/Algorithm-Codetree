@@ -14,7 +14,7 @@ int main(){
             A.push_back(a);
         }
     }
-    if (B.size()%2==1){
+    if (B.size()==2 || B.size()==3){
         for (int i=0;i<B.size();i++){
             m*=B[i];
         }
